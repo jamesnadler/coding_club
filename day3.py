@@ -34,3 +34,14 @@ print(len(mylist))
 # Remove by index
 mylist.pop(0)
 print(mylist)
+
+# Accessing elements in a list
+value = mylist[0]
+print(value)
+
+mylist[0] = "Zero (edited)"
+value = mylist[0]
+
+y = "hello"
+print([*y]) # splits up the letters in a word in a list
+
